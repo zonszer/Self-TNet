@@ -47,18 +47,17 @@ python hpatch_results.py --descr-name=id:selfTN_stage2_XXXXXXX(save_name)
 --split=full
 ```
 
+Also, we release the pre-trained model weight, and you can load the pre-trained weight to evaluate. You can download the pre-trained weight from our repository [Pretrained-Models](https://github.com/zonszer/Self-TNet/tree/main/Pretrained-Models).
+
 ## Reference
 If you find this code useful, please consider citing our paper:
 ```
-@InProceedings{pmlr-v222-zhang24c,
-  title = 	 {Self-supervised Example Difficulty Balancing for Local Descriptor Learning},
-  author =   {Zhang, Jiahan and Tian, Dayong and Wu, Tianyang and Cao, Yiqing and Du, Yaoqi and Wei, Yiwen},
-  booktitle =  {Proceedings of the 15th Asian Conference on Machine Learning},
-  pages = 	 {1654--1669},
-  year = 	   {2024},
-  editor = 	 {Yanıkoğlu, Berrin and Buntine, Wray},
-  volume = 	 {222},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {11--14 Nov},
-  publisher =    {PMLR},
+@inproceedings{zhang2024self,
+  title={Self-supervised Example Difficulty Balancing for Local Descriptor Learning},
+  author={Zhang, Jiahan and Tian, Dayong and Wu, Tianyang and Cao, Yiqing and Du, Yaoqi and Wei, Yiwen},
+  booktitle={Asian Conference on Machine Learning},
+  pages={1654--1669},
+  year={2024},
+  organization={PMLR}
 }
+```
